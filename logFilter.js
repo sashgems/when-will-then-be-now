@@ -16,7 +16,6 @@ function filterLogsOnDate(logs, dateFilter) {
   console.log('parsedDateFilter.getUTCFullYear() is: ' , parsedDateFilter.getUTCFullYear())
   console.log('parsedDateFilter.getMonth() is: ', parsedDateFilter.getMonth())
   console.log('parsedDateFilter.getUTCDate() is: ', parsedDateFilter.getUTCDate())
-  console.log( 'parsedDateFilter.getUTCDate() is: ', parsedDateFilter.getUTCDate())
   logs.forEach((log) => {
     const timestampDate = new Date(log.timestamp)
 
